@@ -3,7 +3,7 @@
 [![Python Logo](https://www.python.org/static/community_logos/python-logo.png)](https://www.python.org/)
 [![Made with Jupyter](https://img.shields.io/badge/Made%20with-Jupyter-orange?style=for-the-badge&logo=Jupyter)](https://jupyter.org/try)
 
-##### Convert Playbook is a program to convert exported elastic SIEM rule file in NDJSON format to Excel file. This program is powered by Python. This program is for individual purpose only.
+##### Convert Playbook is a program to convert exported elastic SIEM rule file in NDJSON format to Excel file. This program is powered by Python and Jupyter. This program is for individual purpose only.
 
 ## Features
 
@@ -18,10 +18,11 @@ Convert Playbook uses Python libraries for running properly :
 
 - [httpx 0.27.0](https://www.python-httpx.org/) - Sending HTTP Request Asynchronously
 - [pandas 2.1.4](https://pandas.pydata.org/) - Cool library to manipulate/read data such as dataframe
+- [numpy 1.26.4](https://numpy.org/) - Sub-dependencies of pandas to manipulate dataframe
 - [asyncio](https://docs.python.org/3/library/asyncio.html) - Creating asynchronous function
 - [tqdm 4.66.1](https://tqdm.github.io/) - Awesome progress bar in Python
 - [openpyxl 3.1.2](https://openpyxl.readthedocs.io/en/stable/) - Saving the output file in .XLSX format
-- [jupyter](https://jupyter.org/) - Flexibel Web-based IDE
+- [jupyter](https://jupyter.org/) - Flexible Web-based IDE
 
 ## Initialization
 
