@@ -28,10 +28,11 @@ Convert Playbook uses Python libraries for running properly :
 
 1. Create a directory "files" in "Convert_Playbook"
 2. Export Elastic SIEM rule files in "Alerts" and save it in NDJSON format.
-3. Copy the files to program directory "files"
-4. Replace the "ELASTIC_RULES_JSON_FILE_PATH" with the full file path
-5. Assign your ChatGPT API in constant variable "API_KEY"
-6. Decrease the "BATCH_SIZE" for improving the performance speed (Default = 10). DON'T DECREASE THE VAULE OF "BATCH_SIZE" TO MUCH DUE TO RATE LIMITING OF CHATGPT API.
+3. Delete all of the JSON data which starts with "{_version}" due to non-rule name in the file
+4. Copy the files to program directory "files"
+5. Replace the "ELASTIC_RULES_JSON_FILE_PATH" with the full file path
+6. Assign your ChatGPT API in constant variable "API_KEY"
+7. Decrease the "BATCH_SIZE" for improving the performance speed (Default = 10). DON'T DECREASE THE VAULE OF "BATCH_SIZE" TO MUCH DUE TO RATE LIMITING OF CHATGPT API.
 
 ## Directory Hierarchy
 
